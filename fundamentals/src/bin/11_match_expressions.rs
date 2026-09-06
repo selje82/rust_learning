@@ -20,6 +20,6 @@ fn main() {
         "Høvdingen" => println!("Ikke så sleten..."),
         "Skink" => println!("CIP CIP"),
         "Thomas" => println!("Jobber ikke med GLN..."),
-        _ => println!("Kan det være noen andre fra Pekeleke?"),
+        _ => println!("Kan det være noen andre fra Pekeleke? {my_name}"),
     }
 }
