@@ -8,7 +8,7 @@ fn main() {
             break;
         } 
         // Displays the number after each iteration.
-        println!("{num1:?}");
+        println!("{num1}");
         num1 += 1;
     }
 

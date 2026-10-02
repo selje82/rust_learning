@@ -1,6 +1,6 @@
 fn main() {
 
-    let num1 = 75;
+    let num1 = 150;
 
     if num1 > 200 {
         println!("Huge number");
