@@ -11,8 +11,8 @@ fn main() {
         height: 1.2,
     };
 
-    let euro_length = low_euro_pallet.length;
-    let euro_width = low_euro_pallet.width;
-    let euro_height = low_euro_pallet.height;
-    println!("The low pallet is {euro_length} meters long, has a width of {euro_width} meters, and are {euro_height} meters tall.");
+    println!("The low pallet is {} meters long, has a width of {} meters, and are {} meters tall.",
+    low_euro_pallet.length,
+    low_euro_pallet.width,
+    low_euro_pallet.height);
 }
