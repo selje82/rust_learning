@@ -4,7 +4,7 @@ enum Direction {
 }
 
 fn main() {
-    let go = Direction::Right;
+    let go = Direction::Left;
     match go {
         Direction::Left => println!("Go left"),
         Direction::Right => println!("Go right"),

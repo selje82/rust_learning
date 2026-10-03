@@ -13,4 +13,5 @@ fn check_gear(state: GearState) {
 fn main() {
     let current_gear = GearState::Up;
     check_gear(current_gear);
+    check_gear(GearState::Down);
 }
