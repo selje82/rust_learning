@@ -1,8 +1,8 @@
 fn main() {
     struct Pallet {
-        length: f32,
-        width: f32,
-        height: f32,
+        length: f64,
+        width: f64,
+        height: f64,
     }
 
     let low_euro_pallet = Pallet {
