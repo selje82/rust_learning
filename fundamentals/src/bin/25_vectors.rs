@@ -2,9 +2,6 @@ struct Test {
     score: i32,
 }
 
-
-
-
 fn main() {
     let my_scores = vec![
         Test {score: 90},
