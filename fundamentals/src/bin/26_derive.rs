@@ -1,22 +1,14 @@
 #[derive(Debug)]
+#[allow(dead_code)]
 enum Genre {
     Action,
     Comedy,
 }
 #[derive(Debug)]
+#[allow(dead_code)]
 struct Movie {
     title: String, 
     genre: Genre,
-}
-
-impl Movie {
-    fn print(&self) {
-        println!("Title: {}", &self.title);
-        match self.genre {
-            Genre::Action => println!("Action"),
-            Genre::Comedy => println!("Comedy"),
-        }
-    }
 }
 
 fn main() {
