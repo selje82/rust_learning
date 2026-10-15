@@ -3,7 +3,7 @@ struct Test {
 }
 
 fn main() {
-    let my_scores = vec![
+    let my_scores: Vec<Test> = vec![
         Test {score: 90},
         Test {score: 75},
         Test {score: 77},
